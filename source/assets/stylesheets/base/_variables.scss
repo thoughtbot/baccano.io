@@ -5,9 +5,12 @@ $large-screen: 900px;
 // Typography
 $base-font-family: $font-stack-system;
 $heading-font-family: $base-font-family;
+$monospace-font-family: $font-stack-consolas;
+
 
 // Font Sizes
 $base-font-size: 1em;
+$small-font-size: 82%;
 
 // Line height
 $base-line-height: 1.5;
@@ -44,3 +47,7 @@ $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $l
 // Animations
 $base-duration: 150ms;
 $base-timing: ease;
+
+// Code
+$code-background-color: rgba(#000, 0.06);
+$code-block-spacing: 10px;

@@ -1,6 +1,53 @@
+header.container
+  .column
+    markdown:
+      # Baccano
+
+      ## Create unique avatars for yourself and your app.
+
 section.container
   .column
-    h1
-      | Baccano
-    p
-      | Randomized user avatars.
+    markdown:
+      Baccano generates a unique avatar image using a hash of the user's ID
+      (or what ever else you want to put in there ⛄️). The algorithm uses the
+      hash to generate a color palate, and accessories. These accessory
+      variations, combined with hash-determined color values, which means
+      there are millions of unique avatars!!
+
+section.container
+  .column
+    markdown:
+      If you want just a random image use
+      `<img src="http://avatar.baccano.io">` and we’ll generate a random base
+      64 string and image for you! ✊
+
+section.container
+  .column
+    markdown:
+      Here's a good example!
+
+          <img src="http://avatar.baccano.io/Hodor">
+
+      <img src="http://avatar.baccano.io/Hodor">
+
+section.container
+  .column
+    markdown:
+      You can also access a randomized image with `/random`! Using this will get
+      you a different avatar every time. Try
+      [refreshing the page](javascript:window.location.reload();).
+
+          <img src="http://avatar.baccano.io/random">
+
+      <img src="http://avatar.baccano.io/random">
+
+footer.container
+  .column
+    markdown:
+      Baccano was made with 💖 from the humans at
+      [thoughtbot](http://thoughtbot.com).
+
+      Baccano is free software, and may be redistributed under the terms
+      specified in the license.
+
+      © 2016 thoughtbot, inc.

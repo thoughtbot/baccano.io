@@ -40,3 +40,35 @@ hr {
   border-top: 0;
   margin: $base-spacing 0;
 }
+
+code {
+  font-family: $monospace-font-family;
+  word-break: keep-all;
+  background-color: $code-background-color;
+  border-radius: $base-border-radius;
+  padding: 0.2em 0;
+  white-space: nowrap;
+  font-size: $small-font-size;
+
+  &::before,
+  &::after {
+    content: "\00a0";
+    letter-spacing: -0.1em;
+  }
+
+  pre & {
+    display: block;
+    padding: $code-block-spacing;
+
+    &::before,
+    &::after {
+      display: none;
+    }
+  }
+}
+
+pre {
+  line-height: 1.5;
+  margin: 0 0 $small-spacing;
+  padding: 3px;
+}
