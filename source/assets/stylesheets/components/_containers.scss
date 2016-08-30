@@ -1,5 +1,6 @@
-.column {
+.container {
   @include grid-container;
   max-width: 40em;
   padding: $base-spacing 0;
+  margin: 0 auto;
 }
