@@ -1,0 +1,4 @@
+.column {
+  @include grid-container;
+  padding: $base-spacing 0;
+}
