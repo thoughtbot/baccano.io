@@ -1,8 +1,15 @@
 body {
+  background-color: $base-background-color;
   color: $base-font-color;
   font-family: $base-font-family;
   font-size: $base-font-size;
+  height: 100%;
   line-height: $base-line-height;
+}
+
+main {
+  @include clearfix;
+  border-right: $huge-border;
 }
 
 h1,
@@ -18,7 +25,15 @@ h6 {
 }
 
 p {
-  margin: 0 0 $small-spacing;
+  margin: 0 0 $base-spacing;
+
+  &:nth-child(odd) {
+    transform: rotate(0.7deg);
+  }
+
+  &:nth-child(even) {
+    transform: rotate(-0.7deg);
+  }
 }
 
 a {
@@ -34,7 +49,7 @@ a {
 }
 
 hr {
-  border-bottom: $base-border;
+  border-bottom: $huge-border;
   border-left: 0;
   border-right: 0;
   border-top: 0;
@@ -69,6 +84,6 @@ code {
 
 pre {
   line-height: 1.5;
-  margin: 0 0 $small-spacing;
+  margin: 0 0 $base-spacing;
   padding: 3px;
 }

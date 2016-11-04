@@ -7,9 +7,8 @@ $base-font-family: $font-stack-system;
 $heading-font-family: $base-font-family;
 $monospace-font-family: $font-stack-consolas;
 
-
 // Font Sizes
-$base-font-size: 1em;
+$base-font-size: 0.875rem;
 $small-font-size: 82%;
 
 // Line height
@@ -25,8 +24,9 @@ $base-z-index: 0;
 // Colors
 $dark-gray: #333;
 $medium-gray: #999;
-$light-gray: #ddd;
-$red: #ed3e44;
+$smoke: #f0efeb;
+$light-gray: #c4c4c4;
+$red: #ff5252;
 
 // Font Colors
 $base-font-color: $dark-gray;
@@ -35,9 +35,10 @@ $action-color: $red;
 // Border
 $base-border-color: $light-gray;
 $base-border: 1px solid $base-border-color;
+$huge-border: 15px solid $base-border-color;
 
 // Background Colors
-$base-background-color: #fff;
+$base-background-color: $smoke;
 $secondary-background-color: tint($base-border-color, 75%);
 
 // Forms

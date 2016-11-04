@@ -1,3 +1,10 @@
+nav.container--full
+  .column
+    = link_to "https://github.com/thoughtbot/baccano", class: "nav-link" do
+      span.icon-button
+        = partial "partials/icon-github.html"
+      span.nav-link__text GitHub
+
 header.container
   .column
     h1
@@ -15,9 +22,6 @@ section.container
       variations, combined with hash-determined color values, which means
       there are millions of unique avatars!!
 
-section.container
-  .column
-    markdown:
       If you want just a random image use
       `<img src="http://avatar.baccano.io">` and we’ll generate a random base
       64 string and image for you! ✊
@@ -30,8 +34,6 @@ section.container
           <img src="http://avatar.baccano.io/Hodor">
 
       <img src="http://avatar.baccano.io/Hodor">
-
-section.container
   .column
     markdown:
       You can also access a randomized image with `/random`! Using this will get
@@ -46,7 +48,7 @@ footer.container
   .column
     markdown:
       Baccano was made with 💖 from the humans at
-      [thoughtbot](http://thoughtbot.com).
+      [thoughtbot](http://thoughtbot.com) and [Healthify](http://healthify.us).
 
       Baccano is free software, and may be redistributed under the terms
       specified in the license.

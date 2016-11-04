@@ -1,0 +1,17 @@
+.icon-button {
+  display: inline-block;
+  background-color: currentColor;
+  padding: 0 0.375em;
+  border-radius: $base-border-radius;
+
+  &:not(:last-child) {
+    margin-right: 0.75em;
+  }
+
+  svg {
+    fill: #fff;
+    width: 1.125em;
+    display: inline;
+    vertical-align: text-top;
+  }
+}

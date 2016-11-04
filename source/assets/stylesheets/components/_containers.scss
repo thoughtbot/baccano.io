@@ -4,3 +4,9 @@
   padding: $base-spacing 0;
   margin: 0 auto;
 }
+
+.container--full {
+  @include grid-container;
+  padding: $base-spacing 0;
+  margin: 0 auto;
+}
