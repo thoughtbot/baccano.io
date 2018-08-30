@@ -32,7 +32,8 @@ GEM
     fast_blank (1.0.0)
     fastimage (2.1.3)
     ffi (1.9.25)
-    haml (4.0.7)
+    haml (5.0.4)
+      temple (>= 0.8.0)
       tilt
     hamster (3.0.0)
       concurrent-ruby (~> 1.0)
