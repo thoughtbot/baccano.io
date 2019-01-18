@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby "2.6.0"
 
-gem "bourbon", "5.0.0.beta.6"
+gem "bourbon"
 gem "middleman", ">= 4.0.0"
 gem "middleman-autoprefixer"
 gem "middleman-livereload"
