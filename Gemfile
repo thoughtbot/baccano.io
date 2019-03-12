@@ -10,3 +10,7 @@ gem "middleman-minify-html"
 gem "neat"
 gem "redcarpet"
 gem "slim"
+
+group :development do
+  gem "html-proofer"
+end
