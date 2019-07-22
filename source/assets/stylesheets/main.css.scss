@@ -1,8 +1,10 @@
 @charset "utf-8";
-@import "normalize";
 
-@import "bourbon";
-@import "neat";
+// From node_modules
+@import "bourbon/core/bourbon";
+@import "normalize.css/normalize";
+@import "bourbon-neat/core/neat";
+
+// From local assets
 @import "base/base";
-
 @import "components/components"

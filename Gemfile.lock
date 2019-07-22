@@ -11,8 +11,6 @@ GEM
     autoprefixer-rails (9.6.1)
       execjs
     backports (3.15.0)
-    bourbon (6.0.0)
-      thor (~> 0.19)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -143,7 +141,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bourbon
   html-proofer
   middleman (>= 4.0.0)
   middleman-autoprefixer

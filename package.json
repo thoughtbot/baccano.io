@@ -1,0 +1,9 @@
+{
+  "name": "baccano.io",
+  "version": "1.0.0",
+  "dependencies": {
+    "bourbon": "^6.0.0",
+    "bourbon-neat": "^4.0.0",
+    "normalize.css": "^8.0.1"
+  }
+}
