@@ -117,7 +117,7 @@ GEM
     rb-inotify (0.10.0)
       ffi (~> 1.0)
     redcarpet (3.5.0)
-    sassc (2.1.0)
+    sassc (2.2.0)
       ffi (~> 1.9)
     servolux (0.13.0)
     slim (4.0.1)
