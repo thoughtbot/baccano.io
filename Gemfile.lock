@@ -115,7 +115,7 @@ GEM
       rack
     rainbow (3.0.0)
     rb-fsevent (0.10.3)
-    rb-inotify (0.10.0)
+    rb-inotify (0.10.1)
       ffi (~> 1.0)
     redcarpet (3.5.0)
     sassc (2.2.1)
