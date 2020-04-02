@@ -7,4 +7,15 @@
 
 // From local assets
 @import "base/base";
-@import "components/components"
+@import "components/components";
+
+.deprecation-notice {
+  background-color: #e03131 !important;
+  color: #ffffff !important;
+  display: block !important;
+  font-size: 1.125rem !important;
+  font-weight: bold !important;
+  padding: 1rem !important;
+  text-align: center !important;
+  transform: none !important;
+}
